@@ -1,13 +1,15 @@
 import Title from "../../components/exercise_title/title";
-import TodoList from "./components/todo/todoList";
+import InfnetCard from "./components/card/card";
 import styles from "./styles.module.css";
 
 function Exercise07() {
   return (
     <>
-      <Title number={7} title={"Atualizando Estado de Forma Condicional"} />
-
-      <TodoList />
+      <Title
+        number={"Tarefa 07"}
+        title={"Componente Card React com Estilização por Class"}
+      />
+      <InfnetCard />
     </>
   );
 }

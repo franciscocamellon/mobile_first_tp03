@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 40px;
+    height: 60vh;
+  }
+
+  .card_title {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .card_image {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    flex-grow: 2;
+    object-fit: cover;
+    
+  }
+
+  .card_description{
+    display: block;
+    font-size: clamp(0.7em, 2vw, 1.5em);
+  }
+
+  @media (max-width: 768px) {
+    .card_description {
+        font-size: clamp(0.5em, 2vw, 0.75em);
+    }
+}

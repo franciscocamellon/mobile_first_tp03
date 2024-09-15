@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-family: "Poppins", system-ui;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+    gap: 15px;
+}
+  
+.card {
+    padding: 2em;
+}
+
+.exercise_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.exercise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lemonchiffon;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+    padding: 1em;
+    width: auto;
+    height: auto; /* Ajustar altura para conteúdo */
+}
+  

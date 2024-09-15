@@ -1,5 +1,4 @@
 import Title from "../../components/exercise_title/title";
-import Temperature from "./components/temperature";
 import styles from "./styles.module.css";
 
 function Exercise13() {
@@ -8,12 +7,9 @@ function Exercise13() {
   return (
     <>
       <Title
-        number={13}
-        title={"Renderização Condicional com Operador Ternário"}
+        number={"Tarefa 13"}
+        title={"App Lista de Tarefas com Categorias"}
       />
-
-      <h3>Verifique a temperatura:</h3>
-      <Temperature temp={currentTemp} />
     </>
   );
 }
