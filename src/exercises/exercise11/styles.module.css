@@ -1,21 +1,13 @@
-.add_task_container{
+.exercise_container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
 }
-
-.input_task{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    width: 50vw;
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
 }
-
-input {
-    height: 30px;
-    border: 1px solid;
-    border-radius: 5px;
-    width: 50vw;
+.related_products, .user_comments {
+    margin-top: 40px;
 }

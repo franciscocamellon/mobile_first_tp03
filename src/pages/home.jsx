@@ -15,18 +15,34 @@ import styles from "./styles.module.css";
 
 function Home() {
   return (
-    <>
+    <div className={styles.container}>
       <h1>Mobile-first UI com React</h1>
       <h2>Teste de Performance 03</h2>
-      <div className="card">
-        <div className="exercise_container">
-          <a href="src\exercises\exercise01\index.html" className="exercise">
-            Tarefa 01
-          </a>
-          <div className="exercise">Tarefa 02</div>
-          <div className="exercise">Tarefa 03</div>
-          <div className="exercise">Tarefa 04</div>
-        </div>
+      <div className={styles.exercise_container}>
+        <a
+          href="src\exercises\exercise01\index.html"
+          className={styles.exercise}
+        >
+          Tarefa 01
+        </a>
+        <a
+          href="src\exercises\exercise02\index.html"
+          className={styles.exercise}
+        >
+          Tarefa 02
+        </a>
+        <a
+          href="src\exercises\exercise03\index.html"
+          className={styles.exercise}
+        >
+          Tarefa 03
+        </a>
+        <a
+          href="src\exercises\exercise04\index.html"
+          className={styles.exercise}
+        >
+          Tarefa 04
+        </a>
       </div>
       <Exercise05 />
       <Exercise06 />
@@ -40,7 +56,7 @@ function Home() {
       <Exercise14 />
       <Exercise15 />
       <Exercise16 />
-    </>
+    </div>
   );
 }
 
