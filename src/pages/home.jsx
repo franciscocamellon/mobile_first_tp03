@@ -16,30 +16,32 @@ import styles from "./styles.module.css";
 function Home() {
   return (
     <div className={styles.container}>
-      <h1>Mobile-first UI com React</h1>
-      <h2>Teste de Performance 03</h2>
+      <div className={styles.title}>
+        <h1>Mobile-first UI com React</h1>
+        <h2>Teste de Performance 03</h2>
+      </div>
       <div className={styles.exercise_container}>
         <a
           href="src\exercises\exercise01\index.html"
-          className={styles.exercise}
+          className={styles.exercise_item}
         >
           Tarefa 01
         </a>
         <a
           href="src\exercises\exercise02\index.html"
-          className={styles.exercise}
+          className={styles.exercise_item}
         >
           Tarefa 02
         </a>
         <a
           href="src\exercises\exercise03\index.html"
-          className={styles.exercise}
+          className={styles.exercise_item}
         >
           Tarefa 03
         </a>
         <a
           href="src\exercises\exercise04\index.html"
-          className={styles.exercise}
+          className={styles.exercise_item}
         >
           Tarefa 04
         </a>

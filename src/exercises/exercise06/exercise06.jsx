@@ -1,5 +1,5 @@
 import Title from "../../components/exercise_title/title";
-import "./styles.module.css";
+import "./styles.css";
 
 function Exercise06() {
   return (

@@ -5,7 +5,7 @@
 }
 
 body {
-    display: block;
+    display: flex;
     font-family: "Poppins", system-ui;
     line-height: 1.6;
     background-color: #ffffff;
@@ -20,21 +20,31 @@ body {
     gap: 15px;
 }
 
+.title {
+    text-align: center;
+    font-size: clamp(1em, 5vw, 1.5em);
+}
+
 .exercise_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 5px;
 }
 
-.exercise {
+.exercise_item {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #42A5F5;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    color: black;
-    padding: 1em;
-    width: auto;
+    padding: 0.5em;
+    width: 15vw;
     height: auto;
 }
   
+@media (max-width: 768px) {
+    .title {
+        text-align: center;
+        font-size: clamp(0.5em, 5vw, 0.75em);
+    }
+}
